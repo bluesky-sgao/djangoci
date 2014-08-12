@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for auto_data in auto_datas %}
+{{ auto_data.data_name }}
+{{ auto_data.data_value_1 }}
+{{ auto_data.data_value_2 }}
+{{ auto_data.data_value_3 }}
+{{ auto_data.data_value_4 }}
+{{ auto_data.data_value_5 }}
+{% endfor %}
+
+{% endblock %}
